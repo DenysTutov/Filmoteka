@@ -1,0 +1,53 @@
+<header class="header-library is-hidden">
+  <div class="container container-library">
+    <nav class="header-library__nav">
+      <div class="header-lib-logo">
+        <svg width="24px" height="24px" class="header-logo__svg">
+          <use href="./images/sprite.svg#icon-film-logo"></use>
+        </svg>
+        <p class="header-logo__text">Filmoteka</p>
+      </div>
+      <div class="toolbarContainer container">
+        <button aria-label="color theme switcher" type="button" class="toolbarContainer__Lib rot">
+          <svg class="toolbarContainer__sun-lib">
+            <use
+              class="toolbarContainer__sun-svg"
+              href="./images/toolbar.svg#icon-SunThem"
+            ></use>
+          </svg>
+          <svg class="toolbarContainer__moon-lib">
+            <use
+              class="toolbarContainer__moon-svg"
+              href="./images/toolbar.svg#icon-MoonThem"
+            ></use>
+          </svg>
+        </button>
+      </div>
+      
+      <div class="pages-container">
+        <ul class="header-library__nav--list">
+          <li
+            class="header-library__home-button pages__home-btn"
+          >
+            Home
+          </li>
+          <li
+            class="header-library__lib-button pages__library-btn current"
+          >
+            My Library </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="header-library__hero--list">
+      <li class="header-library__hero--item">
+        <button class="header-library__hero--button watched-button watched-js">
+          Watched
+        </button>
+      </li>
+      <li class="header-library__hero--item">
+        <button class="header-library__hero--button queue-button">Queue</button>
+      </li>
+    </ul>
+  </div>
+</header>
